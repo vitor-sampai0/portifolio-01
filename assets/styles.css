@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root{
+    --preto: #080808;
+    --secondary-bg--color: #121212;
+    --text-color: #f1f1f1;
+    --main-color: #0fe;
+
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--main-color)
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 2rem 16rem  ;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.logospan{
+    color: var(--main-color);
+    text-shadow: 0 0 5px var(--main-color);
+}
